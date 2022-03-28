@@ -1,0 +1,9 @@
+site_name: Unsolicited documentation advice
+theme:
+  name: material
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
