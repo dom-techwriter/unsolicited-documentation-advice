@@ -1,0 +1,84 @@
+{
+    "id": "a7fac26e-9f3e-4133-8eb0-a333f8e56c1a",
+    "link": "5341cf1f-9d3c-428b-bf7f-a58b0d68db40",
+    "institution": {
+        "name": "santander_br_retail",
+        "type": "bank"
+    },
+    "created_at": "2022-03-24T17:44:24.244435Z",
+    "name": "Uso do Limite da Conta",
+    "type": null,
+    "number": "000010027156",
+    "balance": {
+        "current": 0.0,
+        "available": null
+    },
+    "category": "LOAN_ACCOUNT",
+    "currency": "BRL",
+    "loan_data": {
+        "fees": [
+            {
+                "type": "OPERATION_FEE",
+                "value": 0.0
+            },
+            {
+                "type": "Insurance",
+                "value": 0.0
+            }
+        ],
+        "limit_day": "21",
+        "loan_type": "Uso do Limite da Conta",
+        "principal": 400.0,
+        "limit_date": null,
+        "cutting_day": null,
+        "payment_day": 21,
+        "collected_at": "2022-03-24T18:25:54.481510Z",
+        "credit_limit": 400.0,
+        "cutting_date": null,
+        "interest_rate": null,
+        "interest_rates": [
+            {
+                "name": "TAXA DE JUROS",
+                "type": "mensal",
+                "value": 8.0
+            },
+            {
+                "name": "TAXA DE JUROS",
+                "type": "anual",
+                "value": null
+            },
+            {
+                "name": "CET (CUSTO EFETIVO TOTAL)",
+                "type": "mensal",
+                "value": 0.0
+            },
+            {
+                "name": "CET (CUSTO EFETIVO TOTAL)",
+                "type": "anual",
+                "value": 0.0
+            }
+        ],
+        "contract_amount": null,
+        "contract_number": "000010027156",
+        "monthly_payment": 0.0,
+        "payment_due_day": "21",
+        "contract_end_date": null,
+        "last_payment_date": null,
+        "next_payment_date": "21",
+        "contract_start_date": "2020-10-21",
+        "last_period_balance": null,
+        "no_interest_payment": null,
+        "outstanding_balance": 0.0,
+        "outstanding_principal": null,
+        "number_of_installments_total": 0,
+        "number_of_installments_outstanding": 1
+    },
+    "credit_data": null,
+    "balance_type": "LIABILITY",
+    "collected_at": "2022-03-24T18:25:54.481427Z",
+    "bank_product_id": null,
+    "last_accessed_at": null,
+    "internal_identification": "000010027156",
+    "public_identification_name": null,
+    "public_identification_value": null
+}
