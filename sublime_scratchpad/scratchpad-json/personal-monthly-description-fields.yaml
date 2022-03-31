@@ -1,0 +1,25 @@
+collected_at: 
+  type: string
+  format: date-time
+  description: The ISO timestamp when the data point was collected.
+  example: '2021-06-21T13:53:34.021137+00:00'
+informacion_general:
+  type: object
+  description: General information regarding the tax return (year, RFC, return type, person/company name, and so on).
+isr_pfae:
+  type: object
+  description: TBD
+iva:
+  type: object
+  description: TBD
+pdf:
+  type: string
+  format: binary
+  description: Tax return PDF as a binary.
+  example: =PDF-STRING=
+receipt_pdf:
+  type: string
+  format: binary
+  description: The acknowledgement receipt from the fiscal institution confirming that they received the tax return.
+  example: =PDF-STRING=
+type: monthly

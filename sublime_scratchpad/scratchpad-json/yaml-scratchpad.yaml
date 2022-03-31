@@ -1,0 +1,7 @@
+| API Endpoint | Description | Supported institutions |
+|-----------|-------|---|
+| `Accounts` | Get information about your customer's bank accounts.|Banking and Gig|
+| `Balances` | Get the balance at the end of each day for your customer's bank accounts.|Banking|
+| `Owners` | Get the details of an account owner. |Banking and Gig|
+| `Statements` (BETA)| Get a list of statements with bank transactions and metadata. |Banking|
+| `Transactions` | Get a list of bank transactions with metadata. |Banking and Gig|

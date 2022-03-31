@@ -1,0 +1,171 @@
+[
+    {
+        "id": "bfd6b4d6-82f5-4471-8323-2b2b6342fd03",
+        "accounts": [
+            {
+                "id": "d6daceab-1101-44d1-a66d-3d2fa640f5b9",
+                "link": "70ff7414-6424-4782-98f8-72935af64221",
+                "institution": {
+                    "name": "erebor_mx_retail",
+                    "type": "bank"
+                },
+                "name": "Cuenta nómina",
+                "type": "Cuentas de efectivo",
+                "number": "61728513",
+                "balance": {
+                    "current": 51779.38,
+                    "available": 51779.38
+                },
+                "category": "CHECKING_ACCOUNT",
+                "currency": "MXN",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-09-07T14:23:07.173700+00:00",
+                "bank_product_id": "5",
+                "last_accessed_at": "2021-09-07T00:18:08",
+                "internal_identification": "06cda34f",
+                "public_identification_name": "CLABE",
+                "public_identification_value": "199116603509551967"
+            },
+            {
+                "id": "d92cadfd-417f-482b-8c9b-16979f6e60a6",
+                "link": "70ff7414-6424-4782-98f8-72935af64221",
+                "institution": {
+                    "name": "erebor_mx_retail",
+                    "type": "bank"
+                },
+                "name": "Tarjeta Oro",
+                "type": "Tarjetas de crédito",
+                "number": "84974945",
+                "balance": {
+                    "current": 51514.35,
+                    "available": 51514.35
+                },
+                "category": "CREDIT_CARD",
+                "currency": "MXN",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-09-07T14:23:07.185108+00:00",
+                "bank_product_id": "9",
+                "last_accessed_at": "2021-09-07T04:46:00",
+                "internal_identification": "85f40a72",
+                "public_identification_name": "CREDIT_CARD_NUMBER",
+                "public_identification_value": "060830715035812861"
+            },
+            {
+                "id": "a9b7a07e-98c7-42aa-8a79-d76812acf7a5",
+                "link": "70ff7414-6424-4782-98f8-72935af64221",
+                "institution": {
+                    "name": "erebor_mx_retail",
+                    "type": "bank"
+                },
+                "name": "Cuenta digital",
+                "type": "Créditos",
+                "number": "20890154",
+                "balance": {
+                    "current": 25881.65,
+                    "available": 25881.65
+                },
+                "category": "LOAN_ACCOUNT",
+                "currency": "MXN",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-09-07T14:23:07.196494+00:00",
+                "bank_product_id": "38",
+                "last_accessed_at": "2021-09-06T16:36:32",
+                "internal_identification": "be3397c3",
+                "public_identification_name": "ACCOUNT_NUMBER",
+                "public_identification_value": "728195251152638588"
+            },
+            {
+                "id": "9bb6e908-624c-44b0-b298-c74de4b130a7",
+                "link": "70ff7414-6424-4782-98f8-72935af64221",
+                "institution": {
+                    "name": "erebor_mx_retail",
+                    "type": "bank"
+                },
+                "name": "Tarjeta Oro",
+                "type": "Tarjetas de crédito",
+                "number": "97001208",
+                "balance": {
+                    "current": 14429.21,
+                    "available": 14429.21
+                },
+                "category": "CREDIT_CARD",
+                "currency": "MXN",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-09-07T14:23:07.461918+00:00",
+                "bank_product_id": "94",
+                "last_accessed_at": "2021-09-07T13:52:20",
+                "internal_identification": "ee6d4841",
+                "public_identification_name": "CREDIT_CARD_NUMBER",
+                "public_identification_value": "064377823170671107"
+            },
+            {
+                "id": "774ee2d2-c667-440a-a8f6-123d1527e793",
+                "link": "70ff7414-6424-4782-98f8-72935af64221",
+                "institution": {
+                    "name": "erebor_mx_retail",
+                    "type": "bank"
+                },
+                "name": "Cuenta perfiles",
+                "type": "Créditos",
+                "number": "59368015",
+                "balance": {
+                    "current": 35164.76,
+                    "available": 35164.76
+                },
+                "category": "LOAN_ACCOUNT",
+                "currency": "MXN",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-09-07T14:23:07.473600+00:00",
+                "bank_product_id": "93",
+                "last_accessed_at": "2021-09-07T04:06:06",
+                "internal_identification": "c602c027",
+                "public_identification_name": "ACCOUNT_NUMBER",
+                "public_identification_value": "391671059914008351"
+            },
+            {
+                "id": "8da6e435-ed4a-4e61-8cfd-69063e8e59f4",
+                "link": "70ff7414-6424-4782-98f8-72935af64221",
+                "institution": {
+                    "name": "erebor_mx_retail",
+                    "type": "bank"
+                },
+                "name": "Cuenta perfiles",
+                "type": "Cuentas de efectivo",
+                "number": "18909274",
+                "balance": {
+                    "current": 37986.57,
+                    "available": 37986.57
+                },
+                "category": "CHECKING_ACCOUNT",
+                "currency": "MXN",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-09-07T14:23:07.376156+00:00",
+                "bank_product_id": "94",
+                "last_accessed_at": "2021-09-06T23:33:05",
+                "internal_identification": "ebf833df",
+                "public_identification_name": "CLABE",
+                "public_identification_value": "841303348939356296"
+            }
+        ],
+        "link": "70ff7414-6424-4782-98f8-72935af64221",
+        "internal_identification": "b7385473",
+        "display_name": "Marisol Cintrón Mendoza",
+        "first_name": "Marisol",
+        "last_name": "Cintrón",
+        "second_last_name": "Mendoza",
+        "email": "sara94@hotmail.com",
+        "phone_number": "1-708-639-2596x169",
+        "address": "Continuación Baja California 639 Interior 522\nSan Carolina de la Montaña, MICH 37530-1425",
+        "collected_at": "2021-09-07T14:23:07.291476+00:00",
+        "document_id": {
+            "document_type": "CURP",
+            "document_number": "MINU841124MNTLZX04"
+        }
+    }
+]

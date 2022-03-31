@@ -1,0 +1,97 @@
+[
+    {
+        "id": "3105bced-a33e-41bc-ba47-bcea632b57d3",
+        "accounts": [
+            {
+                "id": "f07d44c7-a5a1-48f0-ae4f-87dca419193c",
+                "link": "baed116a-046d-491f-8c36-c38222835f7f",
+                "institution": {
+                    "name": "erebor_co_retail",
+                    "type": "bank"
+                },
+                "name": "Cuenta nómina",
+                "type": "Cuentas de efectivo",
+                "number": "46172957",
+                "balance": {
+                    "current": 51556.47,
+                    "available": 51556.47
+                },
+                "category": "CHECKING_ACCOUNT",
+                "currency": "COP",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-08-31T18:41:12.771947+00:00",
+                "bank_product_id": "90",
+                "last_accessed_at": "2021-08-31T07:45:31",
+                "internal_identification": "a46680e6",
+                "public_identification_name": "CLABE",
+                "public_identification_value": "639991685173762882"
+            },
+            {
+                "id": "19b9a4bd-978a-4eba-9716-504d2bcad80d",
+                "link": "baed116a-046d-491f-8c36-c38222835f7f",
+                "institution": {
+                    "name": "erebor_co_retail",
+                    "type": "bank"
+                },
+                "name": "Tarjeta Platino",
+                "type": "Tarjetas de crédito",
+                "number": "17081749",
+                "balance": {
+                    "current": 26106.89,
+                    "available": 26106.89
+                },
+                "category": "CREDIT_CARD",
+                "currency": "COP",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-08-31T18:41:12.784088+00:00",
+                "bank_product_id": "55",
+                "last_accessed_at": "2021-08-31T01:48:58",
+                "internal_identification": "2dfccd3e",
+                "public_identification_name": "CREDIT_CARD_NUMBER",
+                "public_identification_value": "639135014607452752"
+            },
+            {
+                "id": "b3b04a37-acf9-4c67-b26b-8c1816b407a1",
+                "link": "baed116a-046d-491f-8c36-c38222835f7f",
+                "institution": {
+                    "name": "erebor_co_retail",
+                    "type": "bank"
+                },
+                "name": "Cuenta digital",
+                "type": "Créditos",
+                "number": "68792668",
+                "balance": {
+                    "current": 31067.65,
+                    "available": 31067.65
+                },
+                "category": "LOAN_ACCOUNT",
+                "currency": "COP",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-08-31T18:41:12.860029+00:00",
+                "bank_product_id": "15",
+                "last_accessed_at": "2021-08-31T07:54:36",
+                "internal_identification": "7b1b5066",
+                "public_identification_name": "ACCOUNT_NUMBER",
+                "public_identification_value": "787969019275381129"
+            }
+        ],
+        "link": "baed116a-046d-491f-8c36-c38222835f7f",
+        "internal_identification": "ab804277",
+        "display_name": "Micaela Rivera Peralta",
+        "first_name": "Micaela",
+        "last_name": "Rivera",
+        "second_last_name": "Peralta",
+        "email": "faleman@laboratorios.biz",
+        "phone_number": "573.485.9730x186",
+        "address": "Cerrada Sur Padilla 021 Edif. 878 , Depto. 332\nSan Francisco de la Montaña, CHIS 93795",
+        "collected_at": "2021-09-09T17:09:11.387656+00:00",
+        "document_id": {
+            "document_type": "Cédula de Ciudadanía",
+            "document_number": "41938584"
+        }
+    }
+]
+

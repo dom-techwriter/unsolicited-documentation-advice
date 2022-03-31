@@ -1,0 +1,294 @@
+[
+    {
+        "id": "d1254fc3-f18b-4a1d-8542-6690d14e0bf5",
+        "accounts": [
+            {
+                "id": "070327c9-50e5-4854-b117-7aa2d7f590f5",
+                "link": "2c5e34d6-eee5-48dc-8e84-fe12316fd8ab",
+                "institution": {
+                    "name": "erebor_br_retail",
+                    "type": "bank"
+                },
+                "name": "Conta corrente",
+                "type": "Contas",
+                "number": "26351408",
+                "balance": {
+                    "current": 41844.49,
+                    "available": 41844.49
+                },
+                "category": "CHECKING_ACCOUNT",
+                "currency": "BRL",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-08-26T00:40:28.047578+00:00",
+                "bank_product_id": "36",
+                "last_accessed_at": "2021-08-25T11:57:26",
+                "internal_identification": "cac5c9a0",
+                "public_identification_name": "CLABE",
+                "public_identification_value": "625522715175069736"
+            },
+            {
+                "id": "850b1bf4-dece-4648-9fbc-01ec2a4a3991",
+                "link": "2c5e34d6-eee5-48dc-8e84-fe12316fd8ab",
+                "institution": {
+                    "name": "erebor_br_retail",
+                    "type": "bank"
+                },
+                "name": "Cartão crédito mastercard elite",
+                "type": "Cartões de crédito",
+                "number": "97902206",
+                "balance": {
+                    "current": 60172.1,
+                    "available": 60172.1
+                },
+                "category": "CREDIT_CARD",
+                "currency": "BRL",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-08-26T00:40:28.060168+00:00",
+                "bank_product_id": "43",
+                "last_accessed_at": "2021-08-25T12:17:32",
+                "internal_identification": "e97242dd",
+                "public_identification_name": "CREDIT_CARD_NUMBER",
+                "public_identification_value": "603695635664045517"
+            },
+            {
+                "id": "c64e1800-e9f1-4c18-8872-27cdcbae975b",
+                "link": "2c5e34d6-eee5-48dc-8e84-fe12316fd8ab",
+                "institution": {
+                    "name": "erebor_br_retail",
+                    "type": "bank"
+                },
+                "name": "Conta corrente",
+                "type": "Crédito pessoal",
+                "number": "44752292",
+                "balance": {
+                    "current": 16190.14,
+                    "available": 16190.14
+                },
+                "category": "LOAN_ACCOUNT",
+                "currency": "BRL",
+                "loan_data": null,
+                "credit_data": null,
+                "collected_at": "2021-08-26T00:40:28.073360+00:00",
+                "bank_product_id": "61",
+                "last_accessed_at": "2021-08-25T09:06:00",
+                "internal_identification": "0596e688",
+                "public_identification_name": "ACCOUNT_NUMBER",
+                "public_identification_value": "528581831380655701"
+            },
+            {
+                "id": "757e34ca-eb9e-43d5-a5a8-15337a958c1e",
+                "link": "2c5e34d6-eee5-48dc-8e84-fe12316fd8ab",
+                "institution": {
+                    "name": "erebor_br_retail",
+                    "type": "bank"
+                },
+                "name": "VGBL - COMPENSAVEL",
+                "type": "REGRESSIVA",
+                "agency": null,
+                "number": "30465440",
+                "balance": {
+                    "current": 89797.49,
+                    "available": 89797.49
+                },
+                "category": "PENSION_FUND_ACCOUNT",
+                "currency": "BRL",
+                "loan_data": null,
+                "funds_data": [
+                    {
+                        "name": "MULTI DINAMICO V",
+                        "type": "PGBL",
+                        "balance": 70524.0,
+                        "percentage": 9.0,
+                        "collected_at": "2021-08-26T00:40:28.086737+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-01"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ESTRATEGIA 2035 II",
+                        "type": "PGBL",
+                        "balance": 84657.0,
+                        "percentage": 5.0,
+                        "collected_at": "2021-08-26T00:40:28.086767+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-02"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ESTRATEGIA 2035 II",
+                        "type": "PGBL",
+                        "balance": 24358.0,
+                        "percentage": 1.0,
+                        "collected_at": "2021-08-26T00:40:28.086787+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-03"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "MULTI DIVIDENDOS I",
+                        "type": "PGBL",
+                        "balance": 93028.0,
+                        "percentage": 2.0,
+                        "collected_at": "2021-08-26T00:40:28.086804+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-04"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ESTRATEGIA 2035 II",
+                        "type": "PGBL",
+                        "balance": 73243.0,
+                        "percentage": 5.0,
+                        "collected_at": "2021-08-26T00:40:28.086820+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-05"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CICLO DE VIDA 2040 I",
+                        "type": "PGBL",
+                        "balance": 96628.0,
+                        "percentage": 9.0,
+                        "collected_at": "2021-08-26T00:40:28.086836+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-06"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CICLO DE VIDA 2030 I",
+                        "type": "PGBL",
+                        "balance": 27371.0,
+                        "percentage": 4.0,
+                        "collected_at": "2021-08-26T00:40:28.086851+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-07"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "MULTI DINAMICO V",
+                        "type": "PGBL",
+                        "balance": 46464.0,
+                        "percentage": 1.0,
+                        "collected_at": "2021-08-26T00:40:28.086867+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-08"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "FIX X",
+                        "type": "PGBL",
+                        "balance": 42170.0,
+                        "percentage": 4.0,
+                        "collected_at": "2021-08-26T00:40:28.086883+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-09"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CICLO DE VIDA 2030 I",
+                        "type": "PGBL",
+                        "balance": 51750.0,
+                        "percentage": 2.220446049250313e-16,
+                        "collected_at": "2021-08-26T00:40:28.086898+00:00",
+                        "public_identifications": [
+                            {
+                                "name": "CNPJ",
+                                "value": "11.222.333/4444-10"
+                            },
+                            {
+                                "name": "SUSEP",
+                                "value": "11111.222222/3333-44"
+                            }
+                        ]
+                    }
+                ],
+                "credit_data": null,
+                "collected_at": "2021-08-26T00:40:28.086622+00:00",
+                "bank_product_id": "57",
+                "last_accessed_at": "2021-08-25T19:54:23",
+                "internal_identification": "5455a8b0",
+                "public_identification_name": "PENSION_PLAN_ID",
+                "public_identification_value": "005339709376462815"
+            }
+        ],
+        "link": "2c5e34d6-eee5-48dc-8e84-fe12316fd8ab",
+        "internal_identification": "7e5838e4",
+        "display_name": "Isabelly Monteiro Moura",
+        "first_name": "Isabelly",
+        "last_name": "Monteiro",
+        "second_last_name": "Moura",
+        "email": "vmoura@viana.br",
+        "phone_number": "+55 31 3816-1480",
+        "address": "Favela de Nascimento, 4\nBarão Homem De Melo 3ª Seção\n37684-854 Moura da Praia / MG",
+        "collected_at": "2021-08-25T12:21:52.702812+00:00",
+        "document_id": {
+            "document_type": "CPF",
+            "document_number": "476.832.590-47"
+        }
+    }
+]

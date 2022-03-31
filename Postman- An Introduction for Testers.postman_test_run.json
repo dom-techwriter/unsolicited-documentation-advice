@@ -1,0 +1,129 @@
+{
+	"id": "3277c95a-892f-4166-8f14-903d357c24b4",
+	"name": "Postman: An Introduction for Testers",
+	"timestamp": "2022-03-16T15:54:46.201Z",
+	"collection_id": "14658306-934a48c9-de22-45bd-a6ec-e12e54056b6d",
+	"folder_id": "14658306-850cf3f4-8ce2-4e06-a125-8c47d70c75b4",
+	"environment_id": "14658306-b2afb750-2f51-4609-bc86-19df6e3b4fd5",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "75b5a38a-f180-4d8d-bfe2-29654aa518b5",
+			"name": "add book",
+			"url": "https://postman-library-api.glitch.me/books",
+			"time": 505,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful request": true,
+				"Book added succssfully": true
+			},
+			"testPassFailCounts": {
+				"Successful request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Book added succssfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				505
+			],
+			"allTests": [
+				{
+					"Successful request": true,
+					"Book added succssfully": true
+				}
+			]
+		},
+		{
+			"id": "f122fc9f-59d5-43bb-bdee-6dbf6b3ed51f",
+			"name": "books",
+			"url": "https://postman-library-api.glitch.me/books",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful request": true,
+				"Did we find our book?": true
+			},
+			"testPassFailCounts": {
+				"Successful request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Did we find our book?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				330
+			],
+			"allTests": [
+				{
+					"Successful request": true,
+					"Did we find our book?": true
+				}
+			]
+		},
+		{
+			"id": "a592f11f-560c-4249-af6d-9801b4f2afda",
+			"name": "update book",
+			"url": "https://postman-library-api.glitch.me/books/9nk3Wvt7SAPCbIr",
+			"time": 241,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful request": true,
+				"Checked out successfully": true
+			},
+			"testPassFailCounts": {
+				"Successful request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checked out successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"Successful request": true,
+					"Checked out successfully": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1076,
+	"collection": {
+		"requests": [
+			{
+				"id": "75b5a38a-f180-4d8d-bfe2-29654aa518b5",
+				"method": "POST"
+			},
+			{
+				"id": "f122fc9f-59d5-43bb-bdee-6dbf6b3ed51f",
+				"method": "GET"
+			},
+			{
+				"id": "a592f11f-560c-4249-af6d-9801b4f2afda",
+				"method": "PATCH"
+			}
+		]
+	}
+}

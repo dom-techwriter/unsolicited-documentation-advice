@@ -1,0 +1,57 @@
+ {
+        "collected_at": "2021-06-21T13:53:34.021137+00:00",
+        "informacion_general": {
+            "rfc": null,
+            "nombre": null,
+            "tipo_declaracion": null,
+            "ejercicio": null,
+            "periodo_declaracion": null,
+            "fecha_hora_presentacion": null,
+            "numero_operacion": null
+        },
+        "isr_pfae": {
+            "determinacion": {
+                "ingresos_periodos_anteriores": 0,
+                "ingresos_periodo": 0,
+                "total_ingresos": 0,
+                "compras_gastos_periodos_anteriores": 1596.0,
+                "compra_gastos_periodo": 399.0,
+                "total_compras_gastos": 1995.0,
+                "base_gravable_pago_provisional": 0,
+                "isr_causado": 0,
+                "pagos_provisionales_efectuados_anterioridad": 0,
+                "isr_retenido_periodos_anteriores": 0,
+                "impuesto_retenido": 0,
+                "isr_cargo": 0
+            },
+            "detalle_del_pago": {
+                "a_cargo": 0,
+                "total_contribuciones": 0,
+                "total_aplicaciones": 0,
+                "cantidad_a_cargo": 0,
+                "cantidad_a_pagar": 0
+            }
+        },
+        "iva": {
+            "determinacion": {
+                "actividades_gravadas_tasa_16": 0,
+                "actividades_gravadas_tasa_0": 0,
+                "actividades_exentas": 0,
+                "iva_cobrado_periodo_tasa_16": 0,
+                "iva_acreditable_periodo": 0,
+                "iva_retenido": 0,
+                "saldo_a_favor": null,
+                "impuesto_a_favor": null
+            },
+            "detalle_del_pago": {
+                "total_contribuciones": 0,
+                "total_aplicaciones": 0,
+                "cantidad_a_cargo": 0,
+                "cantidad_a_pagar": 0,
+                "a_favor": null
+            }
+        },
+        "pdf": "===PDF_BINARY====",
+        "receipt_pdf": "===PDF_BINARY====",
+        "type": "monthly"
+    }
