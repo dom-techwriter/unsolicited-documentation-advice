@@ -1,0 +1,119 @@
+{
+  "title": "Belvo Owner response schema",
+  "type": "object",
+  "description": "Belvo Owner schema for AJV validation.",
+  "required": [
+    "internal_identification",
+    "display_name",
+    "first_name",
+    "last_name",
+    "second_last_name",
+    "email",
+    "phone_number",
+    "address",
+    "collected_at"
+  ],
+  "properties": {
+    "id": {
+      "type": ["string"],
+      "format": "uuid",
+      "pattern": "[a-f0-9]{8}-?[a-f0-9]{4}-?4[a-f0-9]{3}-?[89ab][a-f0-9]{3}-?[a-f0-9]{12}",
+      "examples": ["bc862ddb-2dcf-4829-ade8-49fb037f1797"]
+    },
+    "link": {
+      "type": ["string"],
+      "format": "uuid",
+      "pattern": "[a-f0-9]{8}-?[a-f0-9]{4}-?4[a-f0-9]{3}-?[89ab][a-f0-9]{3}-?[a-f0-9]{12}",
+      "examples": ["bc862ddb-2dcf-4829-ade8-49fb037f1797"]
+    },
+    "internal_identification": {
+      "type": ["string", "null"],
+      "pattern": "[A-Za-z0-9]",
+      "examples": ["8dd2d4cc"]
+    },
+
+    "created_at": {
+      "type": ["string"],
+      "format": "date-time",
+      "examples": ["2022-05-17T01:35:13.403568Z"]
+    },
+    "collected_at": {
+      "type": ["string"],
+      "format": "date-time",
+      "examples": ["2022-05-17T01:35:13.403568Z"]
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "examples": ["we_are_awesome@belvo.com"]
+    },
+    "address": {
+      "type": "string",
+      "examples": ["a long as address"]
+    },
+    "first_name": {
+      "type": ["string", "null"],
+      "pattern": "[A-Za-z]",
+      "examples": ["John", "Córdova"]
+    },
+    "last_name": {
+      "type": ["string", "null"],
+      "pattern": "[A-Za-z]",
+      "examples": ["John", "Córdova"]
+    },
+    "second_last_name": {
+      "type": ["string", "null"],
+      "pattern": "[A-Za-z]",
+      "examples": ["John", "Córdova"]
+    },
+    "display_name": {
+      "type": ["string", "null"],
+      "pattern": "[A-Za-z]",
+      "examples": ["John", "Córdova"]
+    },
+    "business_name": {
+      "type": ["string", "null"],
+      "pattern": "[A-Za-z]",
+      "examples": ["John", "Córdova"]
+    },
+    "phone_number": {
+      "type": ["string", "null"],
+      "examples": ["+56912345678"]
+    },
+    "gig_data": {
+      "type": ["object", "null"],
+      "required": [],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": ["string", "null"],
+          "examples": ["valid"]
+        },
+        "collected_at": {
+          "type": ["string", "null"],
+          "format": "date-time",
+          "examples": ["2022-05-17T01:35:13.403568Z"]
+        },
+        "acceptance_rate": {
+          "type": ["integer", "null"],
+          "examples": [301.02]
+        }
+      }
+    },
+
+    "document_id": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "document_type": {
+          "type": ["string", "null"],
+          "examples": ["CURP"]
+        },
+        "document_number": {
+          "type": ["string", "null"],
+          "examples": ["235578435-S"]
+        }
+      }
+    }
+  }
+}
